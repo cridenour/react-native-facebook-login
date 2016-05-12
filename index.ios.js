@@ -1,12 +1,12 @@
-var React, { PropTypes } = require('react');
-var {
+import React, { PropTypes } from 'react';
+import {
   View,
   StyleSheet,
   NativeModules,
   requireNativeComponent,
   NativeMethodsMixin,
   DeviceEventEmitter,
-} = require('react-native');;
+} from 'react-native';
 
 var { FBLoginManager } = NativeModules;
 
